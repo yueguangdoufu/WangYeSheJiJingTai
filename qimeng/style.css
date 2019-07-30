@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0px;
+	padding: 0px;
+}a {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	color: #F00;
+	text-decoration: underline;
+}

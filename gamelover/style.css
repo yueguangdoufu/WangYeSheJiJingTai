@@ -1,0 +1,101 @@
+@charset "utf-8";
+#back {
+	height: auto;
+	background-repeat: repeat-y;
+	background-image: url(images/back.jpg);
+	padding-bottom: 1500px;
+}
+#back #all {
+	height: auto;
+	width: 1000px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-repeat: repeat-y;
+	padding: 0px;
+}
+#back #all #logo {
+	background-image: url(images/logo.png);
+	height: 228px;
+	width: 1000px;
+	margin: 0px;
+	padding: 0px;
+}
+#back #all #navi ul li {
+	list-style-type: none;
+	float: left;
+	height: 42px;
+	width: 150px;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+#back #all #navi ul {
+	font-size: 24px;
+	font-family: "黑体";
+	color: #CCC;
+	text-align: center;
+}
+#back #all #navi {
+	background-color: #333;
+	height: 48px;
+	margin: 0px;
+	padding: 0px;
+}
+#back #all #footer {
+	font-size: 18px;
+	text-align: center;
+	height: 40px;
+	color: #999;
+	margin-top: 10px;
+	background-image: url(images/back.jpg);
+	padding: 0px;
+	float: left;
+	width: 1000px;
+}/* CSS Document */
+body{
+	margin: 0px;
+	padding: 0px;	
+	}
+#back #all #source #photo {
+	float: left;
+	height: 530px;
+	width: 500px;
+	text-align: center;
+}
+#back #all #source #download {
+	float: left;
+	height: 530px;
+	width: 490px;
+	margin-left: 10px;
+}
+#back #all #game_inf {
+	float: left;
+	width: 1000px;
+}
+#back #all #game_inf #game_inf_title {
+	background-image: url(images/dis_img.png);
+	height: 32px;
+	font-size: 20px;
+	line-height: 32px;
+	text-align: left;
+}
+#back #all #game_inf #game_inf_main {
+	float: left;
+	width: 1000px;
+	font-size: 20px;
+	font-style: 30;
+	background-color: #FFF;
+}
+#back_top {
+	position: fixed;
+	left: 10px;
+	bottom: 200px;
+}
+a {
+	color: #CCC;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFF;
+}
